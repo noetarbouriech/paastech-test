@@ -51,9 +51,9 @@ jobs:
       - run: yarn build
       
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1.0.9
+        uses: actions/upload-pages-artifact@v1
         with:
-          path: dist
+          path: './dist'
 
   # Deploy job
   deploy:
