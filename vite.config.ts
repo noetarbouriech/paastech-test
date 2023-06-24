@@ -5,7 +5,7 @@ import path from 'path';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/paastech-test',
+  base: '/',
   plugins: [
     react({
       jsxImportSource: '@emotion/react',
