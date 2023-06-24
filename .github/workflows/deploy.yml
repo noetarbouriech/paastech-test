@@ -53,7 +53,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1.0.9
         with:
-          path: ${{ runner.temp }}/dist
+          path: dist
 
   # Deploy job
   deploy:
